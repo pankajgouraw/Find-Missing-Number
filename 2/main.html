@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ClassTeacher</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/enableDragMobile.js"></script>
+</head>
+
+<body>
+    <!-- <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;"> -->
+    <div class="mainWrapper">
+        <div class="wrapper">
+            <div id="header">
+                <div class="logo logoWrapper">
+                    <h3 id="headerText"></h3>
+                    <a href="main.html"> <img src="img/logo.png"> </a>
+                </div>
+            </div>
+        </div>
+        <div id="innerWrapper" class="animated zoomIn">
+            <!-- <h2 id="instruction"></h2> -->
+            <div class="resultContainer border">
+                <div class="output"></div>
+                <div class="output"></div>
+                <div class="output"></div>
+                <div class="output"></div>
+                <div class="output"></div>
+            </div>
+            <div class="wellDone">
+                <img src="img/wellDone.png" />
+            </div>
+            <div class="tryAgain">
+                <img src="img/oops.png" />
+            </div>
+            <div class="operationQuestContainer">
+              <div class="questContainer">
+<!--                   <div class="quest" >
+                      <div class="drop">2d</div>
+                      <div class="drop">1</div>
+                      <div class="drop">2</div>
+                  </div>
+                  <div class="quest">
+                      <div class="drop">d</div>
+                      <div class="drop">1</div>
+                      <div class="drop">2</div>
+                  </div>
+                  <div class="quest">
+                      <div class="drop">5</div>
+                      <div class="drop">6</div>
+                      <div class="drop">7</div>
+                  </div> -->
+              </div>
+              <div class="optionNumberContainer">
+                  <div class="numContainer">
+<!--                       <div class="drag">2</div>
+                      <div class="drag">3</div>
+                      <div class="drag">4</div>
+                      <div class="drag">4</div>
+                      <div class="drag">4</div> -->
+                  </div>
+              </div>
+            </div>
+            <div class="buttonContainer">
+                <button id="check">CHECK</button>
+                <button id='reset'>RESET</button>
+                <button id="next">NEXT</button>
+                <button id='playAgain'>PLAY AGAIN</button>
+                <button id='showAnswer'>SHOW ANSWER</button>
+                <button id='nextLevel'>LEVEL 3</button>
+            </div>
+        </div>
+        <!--innerwrapper end here -->
+    </div>
+    <!--wrapper end here -->
+    <script type="text/javascript" src="data/data.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
